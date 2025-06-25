@@ -1,0 +1,31 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "final project",
+  "type": "module",
+  "scripts": {
+    "gulp test": "gulp test",
+    "gulp cypress": "gulp cypress:run",
+    "gulp": "gulp"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Yousef",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "cypress": "^14.5.0",
+    "eslint": "^9.29.0",
+    "globals": "^16.2.0",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-mocha": "^10.0.1",
+    "gulp-shell": "^0.8.0",
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.7.1"
+  }
+}
