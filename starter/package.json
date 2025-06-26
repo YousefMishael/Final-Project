@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "gulp test": "gulp test",
-    "gulp cypress": "gulp cypress:run",
+    "gulp cypress": "gulp cypress",
     "gulp": "gulp"
   },
   "keywords": [
@@ -21,11 +21,11 @@
     "gulp": "^5.0.1",
     "gulp-cli": "^3.1.0",
     "gulp-mocha": "^10.0.1",
-    "gulp-shell": "^0.8.0",
-    "parcel": "^2.15.4"
+    "gulp-shell": "^0.8.0"
   },
   "dependencies": {
     "chai": "^5.2.0",
-    "mocha": "^11.7.1"
+    "mocha": "^11.7.1",
+    "parcel": "^2.13.2"
   }
 }

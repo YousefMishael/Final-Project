@@ -18,7 +18,7 @@ gulp.task("test", function () {
     });
 });
 
-gulp.task("cypress:run", function () {
+gulp.task("cypress", function () {
   return cypress
     .run({
       browser: "chrome",
