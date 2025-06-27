@@ -1,22 +1,8 @@
 import gulp from "gulp";
 import shell from "gulp-shell";
-import mocha from "gulp-mocha";
 import cypress from "cypress";
 
-gulp.task("test", function () {
-  return gulp
-    .src(["test/**/*.js"], { read: false })
-    .pipe(
-      mocha({
-        reporter: "spec",
-        require: ["chai/register-expect", "chai/register-assert"],
-      })
-    )
-    .on("error", function (err) {
-      console.error(err.toString());
-      this.emit("end");
-    });
-});
+gulp.task("test", shell.task("mocha"));
 
 gulp.task("cypress", function () {
   return cypress
